@@ -104,4 +104,3 @@ function NoteCount(){
         document.write("you have " +Math.floor(Amount/10) + " Notes of ten" )
     }
 }
-NoteCount()
