@@ -52,11 +52,29 @@
 //     }
 // }
 
-//                                                 //Question No. 6
-
+// //                                                 //Question No. 6
+// function vowelDel() {
+//     var word= ""; 
+//     var inp = prompt('Enter a sentence of length not more than 25 character')
+//     for (var i = 0; i<inp.length; i++){
+       
+//         document.write(inp.slice(i,i+1) + "\n")
+//     }
+// }
+// vowelDel()
 
 //                                                 //Question No.  7
-
+// var vowelinstance = prompt("Enter a word or line");
+// var count = 0;
+// for (var i =0 ; i< vowelinstance.length; i++){
+//     switch(vowelinstance.slice(i,i+1)){
+//         case ("a"|"e"|"i"|"o"|"u"):
+//                 case (vowelinstance.slice(i+1,i+2)=== "a"):
+//                     count= count +1
+            
+//     }
+// }
+// document.write(count)
 
 //                                                 //Question No. 8
 // dist = +prompt("Enter the distance between two points in km : ")
@@ -78,29 +96,32 @@
 // }
 
                                                 //Question No. 10
-function NoteCount(){
-    var Amount = +prompt("Enter the amount : ")
-    var hundreds,fifty,tens = 0
-    if (Amount >= 100){
-        hundreds = Math.floor(Amount/100)
-        if ((Amount - Math.floor(Amount/100)*100) != 0 && (Amount - Math.floor(Amount/100)*100) >= 50){
-            var remaining = Amount - Math.floor(Amount/100) *100
-            fifty = Math.floor(remaining/50)
-        }
-        if ( (remaining - 50) != 0 && (remaining - 50) < 50){
-            tens = Math.floor((remaining-50)/10)
+// function NoteCount(){
+//     var Amount = +prompt("Enter the amount : ")
+//     var hundreds,fifty,tens = 0
+//     if (Amount >= 100){
+//         hundreds = Math.floor(Amount/100)
+//         if ((Amount - Math.floor(Amount/100)*100) != 0 && (Amount - Math.floor(Amount/100)*100) >= 50){
+//             var remaining = Amount - Math.floor(Amount/100) *100
+//             fifty = Math.floor(remaining/50)
+//         }
+//         if ( (remaining - 50) != 0 && (remaining - 50) < 50){
+//             tens = Math.floor((remaining-50)/10)
          
-        }
-    document.write("you have " + hundreds + " hundreds notes, " + fifty + " notes of fifty & " + tens + " notes of tens")
-    }
-    if (Amount < 100){
-        fifty = Math.floor(Amount/50)
-        if( (Amount - fifty*50)!=0){
-            tens = Math.floor((Amount - fifty*50)/10)
-        }
-    document.write("You have " + fifty + " Note of fifty & " + tens + " Notes of ten")
-    }
-    else if (Amount <50) {
-        document.write("you have " +Math.floor(Amount/10) + " Notes of ten" )
-    }
-}
+//         }
+//     document.write("you have " + hundreds + " hundreds notes, " + fifty + " notes of fifty & " + tens + " notes of tens")
+//     }
+//     if (Amount < 100){
+//         fifty = Math.floor(Amount/50)
+//         if( (Amount - fifty*50)!=0){
+//             tens = Math.floor((Amount - fifty*50)/10)
+//         }
+//     document.write("You have " + fifty + " Note of fifty & " + tens + " Notes of ten")
+//     }
+//     else if (Amount <50) {
+//         document.write("you have " +Math.floor(Amount/10) + " Notes of ten" )
+//     }
+// }
+
+                                            //Chapter No.  43-48
+                                            // Question no. 1
