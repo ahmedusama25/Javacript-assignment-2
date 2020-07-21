@@ -124,4 +124,31 @@
 // }
 
                                             //Chapter No.  43-48
-                                            // Question no. 1
+                                            // Question no. 3
+// function del(a) {
+//     document.getElementById("mytable").deleteRow(a) 
+    
+// }
+
+// var count=0                             //Question NO.5
+// function increase(){
+//     counter = document.getElementById("counter")
+//     counter.value=++count
+
+// }
+// function decrease(){
+//     counter = document.getElementById("counter")
+//     counter.value=--count
+
+// }
+
+                                            //Chapter 49-52
+                                            //question No. 1
+function getvalue(){
+    var data = document.getElementById("Username").value
+    var text =document.getElementById("data")
+    text.innerHTML=data
+    document.getElementById("aa").style.display = "none"
+    
+}
+
