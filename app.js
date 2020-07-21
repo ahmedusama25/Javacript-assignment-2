@@ -56,10 +56,13 @@
 // function vowelDel() {
 //     var word= ""; 
 //     var inp = prompt('Enter a sentence of length not more than 25 character')
-//     for (var i = 0; i<inp.length; i++){
+//     var rest = inp.replace(["a","e","i"],"")
+// //     for (var i = 0; i<inp.length; i++){
        
-//         document.write(inp.slice(i,i+1) + "\n")
-//     }
+// //         document.write(inp.slice(i,i+1) + "\n")
+// //         inp.replace("a","")
+// //     }
+//     document.write(rest)
 // }
 // vowelDel()
 
@@ -123,12 +126,13 @@
 //     }
 // }
 
+
                                             //Chapter No.  43-48
                                             // Question no. 3
-// function del(a) {
-//     document.getElementById("mytable").deleteRow(a) 
+function del(a) {
+    document.getElementById("mytable").deleteRow(a) 
     
-// }
+}
 
 // var count=0                             //Question NO.5
 // function increase(){
@@ -144,11 +148,44 @@
 
                                             //Chapter 49-52
                                             //question No. 1
-function getvalue(){
-    var data = document.getElementById("Username").value
-    var text =document.getElementById("data")
-    text.innerHTML=data
-    document.getElementById("aa").style.display = "none"
+// function getvalue(){
+//     var data = document.getElementById("Username").value
+//     var text =document.getElementById("data")
+//     text.innerHTML=data
+//     document.getElementById("aa").style.display = "none"
     
-}
+// }
 
+                                            //Question No. 2
+// function Readmore(){
+//     var text = "There are the further details odf the item: <ul> <li>a</li> <li>c</li> <li>c</li> <li>c</li> </ul> "
+    
+//     var readMore= document.getElementById("readmore")
+
+//     readMore.innerHTML= text
+// }
+
+                                            //Question No.3
+// function SNo(){
+//     var b=0
+//     document.write(b)
+//     b++
+    
+// }
+// function Delete(b){
+//     document.getElementById("Table").deleteRow(b)
+// }
+// function Update(i){
+//     document.getElementById("mytable").className="hidden"
+//     document.getElementById("hiddenText").className="None"
+//     var aa = document.getElementsByTagName("tr")[i]
+//     document.getElementById("Name").innerHTML= aa.textContent
+    
+// }
+
+
+                                            //Chapter 53-57
+                                            //Question No. 1
+function zoom(a){
+    document.getElementById(a).className = zoom
+}

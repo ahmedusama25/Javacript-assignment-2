@@ -11,3 +11,15 @@ body{
 .hidden{
     display: none;
 }
+.None{
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    margin: 0 50px;
+}
+.zoom{
+    height: 50%;
+    position:absolute ;
+    left: 15%;
+    top: 10%;
+}
