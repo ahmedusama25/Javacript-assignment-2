@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="FBody">
                                                 <!-- Chapter 43-48 -->
 
     <!-- <div class="QuestionNo1">
@@ -205,29 +205,92 @@
 
     </div> -->
 
-
+ 
                                             <!-- Chapter 53-57 --> 
-    <div class="QuestionNo1">
+    <!-- <div class="QuestionNo1" id="QuestionNo1">
         <img src="https://th.bing.com/th/id/OIP.UwIPZoJv3pj15N-0FIAklAHaEo?w=275&h=180&c=7&o=5&pid=1.7" onclick="zoom('img 1')" alt="" >
         <img src="https://th.bing.com/th/id/OIP.mM5hX8hRHEocYFqJlae-HQHaEo?w=245&h=180&c=7&o=5&pid=1.7" onclick="zoom('img 2')" alt="">
         <img src="https://th.bing.com/th/id/OIP.TiHgT7eMFH_l18e3wdCHOgHaEo?w=245&h=180&c=7&o=5&pid=1.7" onclick="zoom('img 3')" alt="">
         <img src="https://th.bing.com/th/id/OIP.yXNEEN4CGXjHY2s1DF9tGgHaEo?w=245&h=180&c=7&o=5&pid=1.7" onclick="zoom('img 4')"  alt="">
 
-
-   <div >
+    </div>
+   <div class="OutOfPage" id ="Every">
+        <button  onclick="again()" style="background-color: transparent; color: white; border-style: none;" >X</button>
+   </div>
+    <div>
         <img src="https://th.bing.com/th/id/OIP.UwIPZoJv3pj15N-0FIAklAHaEo?w=275&h=180&c=7&o=5&pid=1.7" id="img 1" onclick="zoom('img 1')"class="hidden" alt="" >
         <img src="https://th.bing.com/th/id/OIP.mM5hX8hRHEocYFqJlae-HQHaEo?w=245&h=180&c=7&o=5&pid=1.7" id="img 2" onclick="zoom('img 2')"class="hidden" alt="" >
         <img src="https://th.bing.com/th/id/OIP.TiHgT7eMFH_l18e3wdCHOgHaEo?w=245&h=180&c=7&o=5&pid=1.7" id="img 3" onclick="zoom('img 3')"class="hidden" alt="" >
         <img src="https://th.bing.com/th/id/OIP.yXNEEN4CGXjHY2s1DF9tGgHaEo?w=245&h=180&c=7&o=5&pid=1.7" id="img 4"onclick="zoom('img 4')" class="hidden" alt="" >
+    </div> --> 
+<!-- 
+    <div class="QuestionNo2">
+        <div class="Q2Para">
+            <p id="Para">Slow lorises are a group of several species of strepsirrhine primates which make up the genus
+            Nycticebus. They have a round head, narrow snout, large eyes, and a variety of distinctive coloration
+            patterns that are species-dependent. The hands and feet of slow lorises have several adaptations
+            that give them a pincer-like grip and enable them to grasp branches for long periods of time. Slow
+            lorises have a toxic bite, a rare trait among mammals
+        </p>
     </div>
+        <div>
+            <button onclick="zoomin()">
+                Zoom in
+            </button>
+            <button onclick="zoomout()">
+                Zoom out
+            </button>
+        </div>
 
+    </div> -->
+<!--     
+    <div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" />
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" />
+        <label for="email">Email</label>
+        <input type="text" id="email" />
+        </div>
+        <div id="main-content" class="content">
+        <p class="render"> First Name : Alex</p>
+        <p class="render" id="lastName">Last Name: Bank</p>
+        <p class="render"> Email : alexbank@example.com</p>
+        <p class="render"> Country : Pakistan </p>
+        <p class="render"> contact : +92 300 1234567</p>
+        </div>
+    <div>
+    <div>
+        <p id="Para"></p>
+    </div> -->
+
+
+    <div class="QuestionNo2">
+        <div>
+            <h1> DOM </h1>
+            <div id="form-content" class="content">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" />
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" />
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+            </div>
+            <div id="main-content" class="content">
+            <p class="render"> First Name : Alex</p>
+            <p class="render" id="lastName">Last Name: Bank</p>
+            <p class="render"> Email : alexbank@example.com</p>
+            <p class="render"> Country : Pakistan </p>
+            <p class="render"> contact : +92 300 1234567</p>
+            </div>
+        <div>
+        <div>
+            <p id="Para"></p>
+        </div>
 
     </div>
-
-
-
-
-
 
     <script src="app.js"></script>
 </body>

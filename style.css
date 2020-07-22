@@ -3,6 +3,12 @@ body{
 }
 .QuestionNo2 {
     text-align: center;
+    
+}
+.Q2Para{
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .QuestionNo3 td{
     padding:0 10px;
@@ -20,6 +26,23 @@ body{
 .zoom{
     height: 50%;
     position:absolute ;
-    left: 15%;
-    top: 10%;
+    left: 35%;
+    top: 20%;
+    
+}
+
+.Again{
+    display: none;
+}
+.OutOfPage{
+    position: absolute;
+    left: 400%;
+}
+.ZoomButton{
+    position: absolute;
+    left: 70% ;
+    top: 15%;
+}
+.grey{
+    background-color: gray !important;
 }

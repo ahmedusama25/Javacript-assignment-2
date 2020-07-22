@@ -177,7 +177,7 @@ function del(a) {
 // }
 // function Update(i){
 //     document.getElementById("mytable").className="hidden"
-//     document.getElementById("hiddenText").className="None"
+    // document.getElementById("hiddenText").className="None"
 //     var aa = document.getElementsByTagName("tr")[i]
 //     document.getElementById("Name").innerHTML= aa.textContent
     
@@ -186,6 +186,59 @@ function del(a) {
 
                                             //Chapter 53-57
                                             //Question No. 1
-function zoom(a){
-    document.getElementById(a).className = zoom
-}
+// function zoom(a){
+//     document.getElementById(a).className = "zoom";
+//     document.getElementById("Every").className= "ZoomButton" ;
+//     document.getElementById("FBody").style.background="grey";
+//     document.getElementById("FBody").style.transition="2s"
+// }
+// function again(){
+//     document.getElementById("img 1").className = "Again";
+//     document.getElementById("img 2").className = "Again";
+//     document.getElementById("img 3").className = "Again";
+//     document.getElementById("img 4").className = "Again";
+//     document.getElementById("Every").className= "Again";
+//     document.getElementById("FBody").style.background="white"
+        
+// }
+
+                                                //Question No. 2
+// function zoomin(){
+//     var b = 1
+//     var c=26
+//     var d= "px"
+
+//     var para = document.getElementById("Para").style.fontSize +=  
+//     b++
+// }
+// function zoomout(){
+    
+//     var para = document.getElementById("Para").style.fontSize = " 6px" 
+    
+// }
+
+
+                                                //Chapter 58-67
+
+                                                //Question No. 1
+                                                // i & ii
+// var aa = document.getElementById("main-content").textContent
+// var bb = document.getElementById("Para")
+// bb.innerHTML=aa
+                                                // iii 
+// var render = document.getElementsByClassName("render")
+// for (var i=0;i<4;i++){
+//     document.write(render[i].innerHTML)
+// }
+//                                                  //iv
+// var firstName= document.getElementById("first-name")
+// firstName.value="Ahmed"   
+//                                                 // V
+// var lastName= document.getElementById("last-name")
+// lastName.value="Usama"
+// var email = document.getElementById("email")
+// email.value= "ahmed.usama25@hotmail.com"   
+
+                                                    //Question No. 2
+var aa = document.getElementById("form-content").nodeType
+document.write(document.getElementById("last-name").childNodes[1])
